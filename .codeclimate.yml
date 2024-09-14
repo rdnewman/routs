@@ -1,0 +1,14 @@
+---
+plugins:
+  duplication:
+    enabled: true
+    config:
+      languages:
+      - ruby
+  fixme:
+    enabled: true
+  rubocop:
+    enabled: true
+    channel: beta
+exclude_patterns:
+- spec/**/*
