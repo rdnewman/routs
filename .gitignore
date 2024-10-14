@@ -8,3 +8,10 @@
 /spec/reports/
 /tmp/
 /routs-?.?.?.gem
+/spec/sample/.bundle/
+/spec/sample/.yardoc
+/spec/sample/_yardoc/
+/spec/sample/coverage/
+/spec/sample/doc/
+/spec/sample/pkg/
+/spec/sample/tmp/
