@@ -34,9 +34,9 @@ jobs:
         SPEC_IN_CI: true
       run: |
         bundle exec rspec
-    - name: Publish code coverage
-      run: |
-        ./cc-test-reporter after-build -t simplecov -r ${{secrets.CODE_CLIMATE_TEST_REPORTER_ID}}
+#    - name: Publish code coverage
+#      run: |
+#        ./cc-test-reporter after-build -t simplecov -r ${{secrets.CODE_CLIMATE_TEST_REPORTER_ID}}
   test_future:
     runs-on: ubuntu-latest
     strategy:
